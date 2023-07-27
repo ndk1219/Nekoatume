@@ -7,7 +7,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		System.out.println("**猫集め**");
-		//		ArryList<Integer>cats=newArrayList<Integer>();
+
 		Scanner scan = new Scanner(System.in);
 		List<Cat> list = new ArrayList<Cat>();
 		while (true) {
@@ -46,14 +46,7 @@ public class Main {
 				} else {
 					System.out.println("まだ猫がいません");
 				}
-				//				Iterator<Cat>it = list.iterator();
-				//				while(it.hasNext()) {
-				//					Cat e = it.next();
-				//					System.out.println(e.name);
-				//				}
-				//				for (Cat c : list) {
-				//					System.out.println(c.name);
-				//				}
+
 			case 3:
 				System.out.println("***結果***");
 				for (int i = 0; i < list.size(); i++) {

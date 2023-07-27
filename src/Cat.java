@@ -4,6 +4,8 @@ public class Cat {
 	int friendly;//親密度
 	String color;//黒、白、茶トラのどれか一つランダム
 	
+	double height;
+	
 	public Cat(String name,String color){
 		this.name=name;
 		this.color=color;
